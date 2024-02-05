@@ -1854,10 +1854,10 @@ header nav .nav_items .nav-btn .burger_menu {
 }
 .home__our-process .our-process-content .process-cards .pro-cards .main-part-of-cards {
   display: flex;
-  width: 395px;
+  max-width: 385px;
   height: 164px;
   border: 1px solid rgba(35, 37, 54, 0.17);
-  padding: 30px 0 0 32px;
+  padding: 10px 10px 20px 10px;
   gap: 16px;
   flex-wrap: wrap;
 }
@@ -1865,6 +1865,7 @@ header nav .nav_items .nav-btn .burger_menu {
   position: relative;
 }
 .home__our-process .our-process-content .process-cards .pro-cards .p-cards-right h6 {
+  padding-top: -20px;
   color: #000;
   font-family: Poppins;
   font-size: 16px;
@@ -1886,7 +1887,7 @@ header nav .nav_items .nav-btn .burger_menu {
 }
 .home__our-process .our-process-content .process-cards .pro-cards .p-cards-right span {
   position: absolute;
-  top: 0;
+  top: -20px;
   right: 0;
   color: var(--Black, #232536);
   font-family: Poppins;
