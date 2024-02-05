@@ -1887,7 +1887,7 @@ header nav .nav_items .nav-btn .burger_menu {
 }
 .home__our-process .our-process-content .process-cards .pro-cards .p-cards-right span {
   position: absolute;
-  top: -10px;
+  top: -5px;
   right: 0;
   color: var(--Black, #232536);
   font-family: Poppins;
