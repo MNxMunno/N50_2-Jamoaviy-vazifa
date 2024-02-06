@@ -2063,6 +2063,107 @@ header nav .nav_items .nav-btn .burger_menu {
   }
 }
 
+.privacy .hero {
+  position: relative;
+  padding: 56px;
+}
+.privacy .hero h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+  padding: 15px 0;
+}
+.privacy .hero p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+}
+.privacy .hero .p-img1 {
+  top: 15px;
+  left: 5px;
+  position: absolute;
+}
+.privacy .hero .p-img2 {
+  top: 15px;
+  right: 5px;
+  position: absolute;
+}
+@media only screen and (max-width: 540px) {
+  .privacy .hero h1 {
+    font-size: 36px;
+    padding: 10px 0;
+  }
+}
+
+.p-idea .hero {
+  position: relative;
+  background: #ecf8f9;
+  padding: 45px 150px;
+}
+.p-idea .hero h1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.p-idea .hero p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 15px 0;
+}
+.p-idea .hero h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.p-idea .hero .line_img {
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+}
+@media only screen and (max-width: 777px) {
+  .p-idea .hero {
+    padding: 25px 20px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .p-idea .hero h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .p-idea .hero h2 {
+    font-size: 24px;
+  }
+}
+
+.dark .privacy .hero h1 {
+  color: #ecf8f9;
+}
+.dark .privacy .hero p {
+  color: #ecf8f9;
+}
+
+.dark .p-idea .hero {
+  background: #232536;
+}
+
 * {
   margin: 0;
   padding: 0;
