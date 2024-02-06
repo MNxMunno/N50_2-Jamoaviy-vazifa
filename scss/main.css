@@ -1740,6 +1740,7 @@ header nav .nav_items .nav-btn .burger_menu {
   background-color: #3740dc;
 }
 .home__our__services .services___content .cards {
+  padding-top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1748,6 +1749,7 @@ header nav .nav_items .nav-btn .burger_menu {
 }
 .home__our__services .services___content .cards .card {
   width: 400px;
+  height: 350px;
   background: #fff;
   padding: 48px 31px 44px 48px;
   transition: 0.5s;
@@ -1855,7 +1857,7 @@ header nav .nav_items .nav-btn .burger_menu {
 .home__our-process .our-process-content .process-cards .pro-cards .main-part-of-cards {
   display: flex;
   max-width: 385px;
-  height: 164px;
+  height: 194px;
   border: 1px solid rgba(35, 37, 54, 0.17);
   padding: 10px 10px 20px 10px;
   gap: 16px;
@@ -2073,6 +2075,7 @@ html {
 
 body {
   padding-top: 83px;
+  position: relative;
 }
 
 ::-webkit-scrollbar {
@@ -2130,4 +2133,22 @@ a {
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.backtop {
+  background: #000;
+  border-radius: 50%;
+  padding: 10px 13px 5px 13px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dark .backtop {
+  background: #fff;
+  color: #000;
 }/*# sourceMappingURL=main.css.map */

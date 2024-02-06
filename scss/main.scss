@@ -14,6 +14,7 @@ html {
 
 body {
   padding-top: 83px;
+  position: relative;
 }
 
 ::-webkit-scrollbar {
@@ -75,4 +76,22 @@ a {
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.backtop {
+  background: #000;
+  border-radius: 50%;
+  padding: 10px 13px 5px 13px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dark .backtop {
+  background: #fff;
+  color: #000;
 }
