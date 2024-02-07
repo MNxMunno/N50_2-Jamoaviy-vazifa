@@ -1,0 +1,117 @@
+.privacy {
+  .hero {
+    position: relative;
+    padding: 56px;
+    h1 {
+      font-family: Poppins;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 58px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #232536;
+      padding: 15px 0;
+    }
+    p {
+      //styleName: Paragraph;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #232536;
+    }
+    .p-img1 {
+      top: 15px;
+      left: 5px;
+      position: absolute;
+    }
+    .p-img2 {
+      top: 15px;
+      right: 5px;
+      position: absolute;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .hero {
+      h1 {
+        font-size: 36px;
+        padding: 10px 0;
+      }
+    }
+  }
+}
+.p-idea {
+  .hero {
+    position: relative;
+    background: #ecf8f9;
+    padding: 45px 150px;
+    h1 {
+      //styleName: H3 Heading;
+      font-family: Poppins;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 54px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+    p {
+      //styleName: Paragraph;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      padding: 15px 0;
+    }
+    h2 {
+      //styleName: H4 Heading;
+      font-family: Poppins;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 36px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+    .line_img {
+      position: absolute;
+      bottom: -24px;
+      left: 0;
+    }
+  }
+  @media only screen and (max-width: 777px) {
+    .hero {
+      padding: 25px 20px;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .hero {
+      h1 {
+        font-size: 28px;
+        line-height: 40px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+.dark .privacy {
+  .hero {
+    h1 {
+      color: #ecf8f9;
+    }
+    p {
+      color: #ecf8f9;
+    }
+  }
+}
+
+.dark .p-idea {
+  .hero {
+    background: #232536;
+  }
+}

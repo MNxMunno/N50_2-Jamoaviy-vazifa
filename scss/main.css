@@ -606,7 +606,7 @@ header nav .nav_items .nav-btn .burger_menu {
     margin-left: 96px;
   }
   .container_main_imgs0 img {
-    width: 750px;
+    width: 950px;
   }
   .container_text_wraper0 {
     margin-left: 96px;
@@ -615,7 +615,7 @@ header nav .nav_items .nav-btn .burger_menu {
     margin-left: 96px;
   }
   .bg_efekt_container {
-    margin-left: 404px;
+    margin-left: 604px;
   }
   .text_wraper0 {
     margin-left: 96px;
@@ -641,7 +641,15 @@ header nav .nav_items .nav-btn .burger_menu {
     display: none;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 888px) {
+  .container_main_imgs0 img {
+    width: 750px;
+  }
+  .bg_efekt_container {
+    margin-left: 404px;
+  }
+}
+@media only screen and (max-width: 760px) {
   .footer_card_twraper_text0 {
     display: grid;
     grid-template-columns: 1fr;
@@ -2098,6 +2106,7 @@ header nav .nav_items .nav-btn .burger_menu {
   background-color: #3740dc;
 }
 .home__our__services .services___content .cards {
+  padding-top: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2106,6 +2115,7 @@ header nav .nav_items .nav-btn .burger_menu {
 }
 .home__our__services .services___content .cards .card {
   width: 400px;
+  height: 350px;
   background: #fff;
   padding: 48px 31px 44px 48px;
   transition: 0.5s;
@@ -2212,10 +2222,10 @@ header nav .nav_items .nav-btn .burger_menu {
 }
 .home__our-process .our-process-content .process-cards .pro-cards .main-part-of-cards {
   display: flex;
-  width: 395px;
-  height: 164px;
+  max-width: 385px;
+  height: 194px;
   border: 1px solid rgba(35, 37, 54, 0.17);
-  padding: 30px 0 0 32px;
+  padding: 10px 10px 20px 10px;
   gap: 16px;
   flex-wrap: wrap;
 }
@@ -2223,6 +2233,7 @@ header nav .nav_items .nav-btn .burger_menu {
   position: relative;
 }
 .home__our-process .our-process-content .process-cards .pro-cards .p-cards-right h6 {
+  padding-top: -20px;
   color: #000;
   font-family: Poppins;
   font-size: 16px;
@@ -2244,7 +2255,7 @@ header nav .nav_items .nav-btn .burger_menu {
 }
 .home__our-process .our-process-content .process-cards .pro-cards .p-cards-right span {
   position: absolute;
-  top: 0;
+  top: -5px;
   right: 0;
   color: var(--Black, #232536);
   font-family: Poppins;
@@ -2418,6 +2429,107 @@ header nav .nav_items .nav-btn .burger_menu {
   }
 }
 
+.privacy .hero {
+  position: relative;
+  padding: 56px;
+}
+.privacy .hero h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+  padding: 15px 0;
+}
+.privacy .hero p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+}
+.privacy .hero .p-img1 {
+  top: 15px;
+  left: 5px;
+  position: absolute;
+}
+.privacy .hero .p-img2 {
+  top: 15px;
+  right: 5px;
+  position: absolute;
+}
+@media only screen and (max-width: 540px) {
+  .privacy .hero h1 {
+    font-size: 36px;
+    padding: 10px 0;
+  }
+}
+
+.p-idea .hero {
+  position: relative;
+  background: #ecf8f9;
+  padding: 45px 150px;
+}
+.p-idea .hero h1 {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.p-idea .hero p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding: 15px 0;
+}
+.p-idea .hero h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.p-idea .hero .line_img {
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+}
+@media only screen and (max-width: 777px) {
+  .p-idea .hero {
+    padding: 25px 20px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .p-idea .hero h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .p-idea .hero h2 {
+    font-size: 24px;
+  }
+}
+
+.dark .privacy .hero h1 {
+  color: #ecf8f9;
+}
+.dark .privacy .hero p {
+  color: #ecf8f9;
+}
+
+.dark .p-idea .hero {
+  background: #232536;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -2430,6 +2542,7 @@ html {
 
 body {
   padding-top: 83px;
+  position: relative;
 }
 
 ::-webkit-scrollbar {
@@ -2487,4 +2600,22 @@ a {
   max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.backtop {
+  background: #000;
+  border-radius: 50%;
+  padding: 10px 13px 5px 13px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dark .backtop {
+  background: #fff;
+  color: #000;
 }/*# sourceMappingURL=main.css.map */

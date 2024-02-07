@@ -512,6 +512,7 @@
       background-color: #3740dc;
     }
     .cards {
+      padding-top: 40px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -519,6 +520,7 @@
       gap: 32px;
       .card {
         width: 400px;
+        height: 350px;
         background: #fff;
         padding: 48px 31px 44px 48px;
         transition: 0.5s;
@@ -634,16 +636,17 @@
         position: relative;
         .main-part-of-cards {
           display: flex;
-          width: 395px;
-          height: 164px;
+          max-width: 385px;
+          height: 194px;
           border: 1px solid rgba(35, 37, 54, 0.17);
-          padding: 30px 0 0 32px;
+          padding: 10px 10px 20px 10px;
           gap: 16px;
           flex-wrap: wrap;
         }
         .p-cards-right {
           position: relative;
           h6 {
+            padding-top: -20px;
             color: #000;
             font-family: Poppins;
             font-size: 16px;
@@ -665,7 +668,7 @@
           }
           span {
             position: absolute;
-            top: 0;
+            top: -5px;
             right: 0;
             color: var(--Black, #232536);
             font-family: Poppins;
