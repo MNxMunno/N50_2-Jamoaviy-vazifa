@@ -158,6 +158,19 @@ footer .footer__bottom .foot_bottom-cards .foot_bottom-right a:hover svg {
   }
 }
 
+.dark footer .footer__bottom {
+  background: #232536;
+}
+.dark footer .footer__bottom svg {
+  fill: #fff;
+}
+.dark footer .footer__bottom .foot_bottom-cards .foot_bottom-left p {
+  color: #fff;
+}
+.dark footer .footer__bottom .foot_bottom-cards .foot_bottom-right svg {
+  fill: #fff;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -2990,6 +3003,72 @@ header nav .nav_items .nav-btn .burger_menu {
   .home__newsletter .home__new-content .cards .card2 input {
     width: 100%;
   }
+}
+
+.dark main .home__about__us .about__us-content .cards1 p {
+  color: white;
+}
+.dark main .home__about__us .about__us-content .cards1 h2 {
+  color: #fff;
+}
+.dark main .home__about__us .about__us-content .cards1 h3 {
+  color: #fff;
+}
+.dark main .home__about__us .about__us-content .cards1 .text2 {
+  color: #fff;
+}
+.dark main .home__about__us .about__us-content .cards3 .card .catalog h4 {
+  color: #fff;
+}
+.dark main .home__about__us .about__us-content .cards3 .card .catalog p {
+  color: white;
+}
+.dark main .home__about__us .about__us-content .cards3 .card a {
+  color: #fff;
+  fill: #fff;
+}
+.dark main .home__our__expertise {
+  background: #59dae6;
+}
+.dark main .home__our__expertise .home__expertise-cards .card b {
+  color: #fff;
+}
+.dark main .home__our__expertise .home__expertise-cards .card p {
+  color: #fff;
+}
+.dark main .home__our__expertise .home__expertise-cards .card h5 {
+  color: #fff;
+}
+.dark main .home__our__expertise .home__expertise-cards .card .bluee {
+  background: #fff;
+}
+.dark main .home__our__expertise .home__expertise-cards .card .cardd {
+  background: #37a0dc;
+}
+.dark main .home__our__expertise .home__expertise-cards .card .cardd h6 {
+  color: #fff;
+}
+.dark main .home__our__services {
+  background: #e4a470;
+}
+.dark main .home__our__services .services___content p {
+  color: #fff;
+}
+.dark main .home__our__services .services___content h5 {
+  color: #fff;
+}
+.dark main .home__our__services .services___content .cards .card {
+  background: #edd3be;
+}
+.dark main .home__our__services .services___content .cards .card h6 {
+  color: #fff;
+}
+.dark main .home__our__services .services___content .cards .card p {
+  color: #fff;
+}
+.dark main .home__our__services .services___content .cards .card a {
+  color: #fff;
+  fill: #fff;
 }
 
 .privacy .hero {

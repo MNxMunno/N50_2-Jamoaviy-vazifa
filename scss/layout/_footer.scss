@@ -170,3 +170,25 @@ footer {
     }
   }
 }
+
+.dark footer {
+  .footer__bottom {
+    background: #232536;
+
+    svg {
+      fill: #fff;
+    }
+    .foot_bottom-cards {
+      .foot_bottom-left {
+        p {
+          color: #fff;
+        }
+      }
+      .foot_bottom-right {
+        svg {
+          fill: #fff;
+        }
+      }
+    }
+  }
+}

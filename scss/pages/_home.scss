@@ -905,3 +905,91 @@
     }
   }
 }
+
+.dark main {
+  .home__about__us {
+    .about__us-content {
+      .cards1 {
+        p {
+          color: white;
+        }
+        h2 {
+          color: #fff;
+        }
+        h3 {
+          color: #fff;
+        }
+        .text2 {
+          color: #fff;
+        }
+      }
+      .cards3 {
+        .card {
+          .catalog {
+            h4 {
+              color: #fff;
+            }
+            p {
+              color: white;
+            }
+          }
+          a {
+            color: #fff;
+            fill: #fff;
+          }
+        }
+      }
+    }
+  }
+  .home__our__expertise {
+    background: #59dae6;
+    .home__expertise-cards {
+      .card {
+        b {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+        h5 {
+          color: #fff;
+        }
+        .bluee {
+          background: #fff;
+        }
+        .cardd {
+          background: #37a0dc;
+          h6 {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  .home__our__services {
+    background: #e4a470;
+    .services___content {
+      p {
+        color: #fff;
+      }
+      h5 {
+        color: #fff;
+      }
+      .cards {
+        .card {
+          background: #edd3be;
+          h6 {
+            color: #fff;
+          }
+          p {
+            color: #fff;
+          }
+          a {
+            color: #fff;
+            fill: #fff;
+          }
+        }
+      }
+    }
+  }
+}
