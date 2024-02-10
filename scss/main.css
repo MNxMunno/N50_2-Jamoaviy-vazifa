@@ -381,6 +381,10 @@ header nav .nav_items .nav-btn .burger_menu {
     width: 100vw;
   }
 }
+.backtop {
+  text-decoration: none;
+}
+
 .container_wraper0 {
   display: flex;
   justify-content: space-between;

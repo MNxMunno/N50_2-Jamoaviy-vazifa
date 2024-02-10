@@ -1,3 +1,7 @@
+.backtop {
+  text-decoration: none;
+}
+
 .container_wraper0 {
   display: flex;
   justify-content: space-between;
@@ -220,10 +224,9 @@
   transform: rotate(180deg);
   background: rgb(68, 76, 252);
 }
-.mobilni_png0{
-display: none;
+.mobilni_png0 {
+  display: none;
 }
-
 
 //////////////////////////////////////////////////////////////   mobilniy   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
@@ -274,14 +277,13 @@ display: none;
     display: none;
   }
 }
-@media only screen and (max-width: 888px){
+@media only screen and (max-width: 888px) {
   .container_main_imgs0 img {
     width: 750px;
   }
   .bg_efekt_container {
     margin-left: 404px;
   }
-
 }
 
 @media only screen and (max-width: 760px) {
@@ -304,30 +306,30 @@ display: none;
     display: none;
   }
 
-  .mobilni_png0{
+  .mobilni_png0 {
     display: inline;
-    max-width: 480px;  
+    max-width: 480px;
     margin-left: 0px;
-    }
+  }
 
   .bg_efekt_container {
     margin-left: 134px;
   }
 
-  .text_wraper0{
-  margin-left: 0;
+  .text_wraper0 {
+    margin-left: 0;
   }
-  .container_pupile_page{
-  margin-left: 0;
+  .container_pupile_page {
+    margin-left: 0;
   }
-  .container_text_wraper0{
-  margin-left: 0;
+  .container_text_wraper0 {
+    margin-left: 0;
   }
-  .container_wraper0{
-  display: flex;
-  justify-content: space-between;
-  margin-left: 0;
-  margin-top: 15px;
+  .container_wraper0 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-top: 15px;
   }
 }
 
@@ -346,42 +348,38 @@ display: none;
     margin-top: 30px;
   }
 
-   .imgs {
+  .imgs {
     display: none;
   }
 
-  .mobilni_png0{
+  .mobilni_png0 {
     display: inline;
-    max-width: 380px;  
-    }
-
+    max-width: 380px;
+  }
 
   .bg_efekt_container {
     margin-left: 34.5px;
-  
   }
-  .big_footer_card{
-  margin: 0;
-  }
-
-  .text_wraper0{
-  margin: 0 auto;
-  margin-top: 40px;
-  }
-  .container_text_wraper0{
-  margin: 0 auto;
-  margin-top: 25px;
+  .big_footer_card {
+    margin: 0;
   }
 
-  .container_wraper0{
-   display: flex;
-   justify-content: space-between;
-   margin: 0;
-   margin-top: 15px;
+  .text_wraper0 {
+    margin: 0 auto;
+    margin-top: 40px;
   }
-  .container_pupile_page{
-  margin: 0;
+  .container_text_wraper0 {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
+  .container_wraper0 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 15px;
+  }
+  .container_pupile_page {
+    margin: 0;
   }
 }
-
-
